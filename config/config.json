@@ -1,0 +1,47 @@
+{
+  "development": {
+    "username": "administrador",
+    "password": "redSolidaria_2024",
+    "database": "redSolidariaDB",
+    "host": "unahhn.database.windows.net",
+    "dialect": "mssql",
+    "port": 1433,
+    "dialectOptions": {
+      "encrypt": true,       
+      "options": {
+        "trustServerCertificate": false, 
+        "validateBulkLoadParameters": true 
+      }
+    }
+  },
+  "test": {
+    "username": "administrador",
+    "password": "redSolidaria_2024",
+    "database": "redSolidariaDB",
+    "port": 1433,
+    "host": "unahhn.database.windows.net",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "encrypt": true,       
+      "options": {
+        "trustServerCertificate": false, 
+        "validateBulkLoadParameters": true 
+      }
+    }
+  },
+  "production": {
+    "username": "administrador",
+    "password": "redSolidaria_2024",
+    "database": "redSolidariaDB",
+    "port": 1433,
+    "host": "unahhn.database.windows.net",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "encrypt": true,       
+      "options": {
+        "trustServerCertificate": false, 
+        "validateBulkLoadParameters": true 
+      }
+    }
+  }
+}
